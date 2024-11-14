@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('devolution_stories', function (Blueprint $table) {
             $table->id();
+            $table->string('image')->nullable();
+            $table->string('title')->nullable();
+            $table->string('descrition')->nullable();
             $table->timestamps();
         });
     }

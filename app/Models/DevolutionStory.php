@@ -7,4 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class DevolutionStory extends Model
 {
     //
+    protected $fillable=['image', 'title','description'];
 }
