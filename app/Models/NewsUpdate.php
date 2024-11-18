@@ -7,4 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class NewsUpdate extends Model
 {
     //
+    protected $fillable=['caption','link'];
 }

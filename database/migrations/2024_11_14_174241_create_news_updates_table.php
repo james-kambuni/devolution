@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('news_updates', function (Blueprint $table) {
             $table->id();
+            $table->string('caption')->nullable();
+            $table->string('link')->nullable();
             $table->timestamps();
         });
     }
