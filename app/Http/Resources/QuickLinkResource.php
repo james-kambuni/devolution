@@ -17,9 +17,7 @@ class QuickLinkResource extends JsonResource
         return [
             'id'=>$this->id,
             'name'=>$this->name,
-            'link'=>$this->link,
-            'caption'=>$this->caption,
-            
+            'link'=>$this->link
         ];
     }
 }

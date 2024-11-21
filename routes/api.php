@@ -20,6 +20,10 @@ Route::group( ['middleware' => ['auth:api']], function()
     Route::post('/search/user', 'App\Http\Controllers\UserController@search');
     Route::get('/users', 'App\Http\Controllers\UserController@users');
     Route::resource('/user', 'App\Http\Controllers\UserController');
+
+    Route::post('/search/quickLink', 'App\Http\Controllers\QuickLinkController@search');
+    Route::get('/quickLinks', 'App\Http\Controllers\QuickLinkController@quickLinks');
+    Route::resource('/quickLink', 'App\Http\Controllers\QuickLinkController');
 });
 
 

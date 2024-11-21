@@ -22,7 +22,7 @@ return [
     'allowed_methods' => ['*'],
 
     // Specify the allowed origins for CORS requests
-    'allowed_origins' => ['http://localhost:5173', 'https://portal.oldmutual.info', 'https://kingdombank.org'],
+    'allowed_origins' => ['http://localhost:5173', 'http://localhost:3000'],
 
     // Specify patterns for allowed origins (if any)
     'allowed_origins_patterns' => [],
